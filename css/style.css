@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://chiase24.com/wp-content/uploads/2022/02/Tong-hop-cac-hinh-anh-background-dep-nhat-21.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+body .header .header-top {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+body .header .header-top .logo img {
+  width: 150px;
+}
+
+body .header .header-top .fa-solid {
+  display: none;
+}
+
+body .header .header-top .menu {
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+
+body .header .header-top .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+body .header .header-top .menu ul .fa-solid {
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  display: none;
+}
+
+body .header .header-top .menu ul li {
+  list-style: none;
+  margin-left: 30px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+}
+
+body .header .header-top .menu ul li:after {
+  content: "";
+  width: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #dc3545;
+  display: block;
+  margin: auto;
+  height: 2px;
+  margin-top: 10px;
+}
+
+body .header .header-top .menu ul li:hover::after {
+  width: 100%;
+}
+
+body .header .text-center {
+  margin-top: 10%;
+}
+
+body .header .text-center h4 {
+  font-size: 70px;
+}
+
+body .header .text-center p {
+  margin: 30px auto;
+}
+
+body .header .text-center button {
+  border: 1px solid white;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body .header .text-center button:hover {
+  border: 1px solid #dc3545;
+  color: white;
+}
+
+body .course {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 30px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .course .text-center {
+  margin: 5% auto;
+}
+
+body .course .text-center h2 {
+  font-size: 40px;
+}
+
+body .course .row {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .course .row .rounded {
+  background-color: #fff3f3;
+  width: 80%;
+  margin: 30px;
+}
+
+body .course .row .rounded h3 {
+  margin: 30px auto;
+}
+
+body .course .row .rounded p {
+  padding-bottom: 20px;
+}
+
+body .Facilities {
+  width: 80%;
+  margin: 50px auto;
+}
+
+body .Facilities .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .Facilities .row .rounded {
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+
+body .Facilities .row .rounded img {
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  margin-top: 50px;
+}
+
+body .Facilities .row .rounded h3 {
+  color: white;
+  font-size: 60px;
+  margin-top: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body .Facilities .row .rounded:hover h3 {
+  margin-top: -200px;
+  border: none;
+}
+
+body .Campus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 50px auto;
+}
+
+body .Campus .row {
+  margin-top: 10%;
+}
+
+body .Campus .row .rounded {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .Campus .row .rounded img {
+  width: 100%;
+  height: 300px;
+}
+
+body .Campus .row .rounded h3 {
+  text-align: left;
+  margin: 30px 0;
+}
+
+body .Campus .row .rounded p {
+  text-align: left;
+}
+
+body .Campus .row .text-center h2 {
+  margin-top: 50%;
+}
+
+body .student {
+  width: 80%;
+  margin: 5% auto;
+}
+
+body .student .row .col-lg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff3f3;
+  margin: 40px;
+  border-radius: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .student .row .col-lg img {
+  height: 200px;
+  margin: 20px;
+}
+
+body .student .row .col-lg .text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body .comtac {
+  width: 80%;
+  margin: 5% auto;
+  background-image: url("https://img.thuthuattinhoc.vn/uploads/2019/01/13/anh-nen-dep-nhat_105620947.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  padding-top: 3%;
+}
+
+body .comtac .btn {
+  color: white;
+  border: 1px solid white;
+  margin-top: 20px;
+  outline: none;
+}
+
+body .footer {
+  background-color: #c5c1c1;
+  width: 100%;
+  position: relative;
+}
+
+body .footer b {
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+body .footer .icon {
+  margin: 20px;
+}
+
+body .footer .icon i {
+  margin: 0  20px 0 20px;
+  color: #dc3545;
+}
+
+body .footer p {
+  padding-bottom: 20px;
+}
+
+body .footer p i {
+  color: #dc3545;
+}
+
+@media (max-width: 700px) {
+  body .header .header-top .logo img {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  body .header .header-top .fa-solid {
+    display: inline-block !important;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 25px;
+  }
+  body .header .header-top .menu {
+    background-color: #dc3545;
+    position: absolute;
+    top: -10px;
+    right: -50px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    width: 00px;
+    display: none;
+    z-index: 2;
+    height: 100%;
+  }
+  body .header .header-top .menu .fa-solid {
+    display: inline-block !important;
+    position: absolute;
+    left: -50px;
+  }
+  body .header .header-top .menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    z-index: 2;
+  }
+  body .header .header-top .menu ul li {
+    right: 30px;
+  }
+  body .header .text-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 30%;
+  }
+  body .header .text-center h4 {
+    font-size: 20px;
+  }
+  body .student .row .col-lg img {
+    height: 100px;
+    margin: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
